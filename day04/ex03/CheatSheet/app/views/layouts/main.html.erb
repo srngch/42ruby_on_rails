@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title><%= yield(:title) %></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'main', media: 'all' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <nav>
+        <div class="navbar navbar-fixed-top navbar-default">
+          <div class="navbar-header"><a href="/" class="navbar-brand cheat-sheet-brand">Rails Beginner Cheat Sheet</a></div>
+
+          <ul class="nav navbar-nav">
+            <li><a href="/main/console">Console</a></li>
+            <li class="dropdown">
+              <a href="/main/ruby" class="dropdown-toggle" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b class="caret"></b> Ruby</a>
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li><a href="/main/ruby">General Concepts</a></li>
+                <li><a href="/main/ruby-numbers">Numbers</a></li>
+                <li><a href="/main/ruby-strings">Strings</a></li>
+                <li><a href="/main/ruby-arrays">Arrays</a></li>
+                <li><a href="/main/ruby-hashes">Hashes</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="/main/rails" class="dropdown-toggle" data-target="#" class="dropdown-toggle" data-target="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><b class="caret"></b> Rails</a>
+              <ul class="dropdown-menu" aria-labelledby="dLabel">
+                <li><a href="/main/rails-folder-structure">Folder Structure</a></li>
+                <li><a href="/main/rails-commands">Commands</a></li>
+                <li><a href="/main/rails-erb">ERB: Embedded Ruby</a></li>
+              </ul>
+            </li>
+            <li><a href="/main/editor">Editor Tips</a></li>
+            <li><a href="/main/help">Help</a></li>
+          </ul>
+          <ul class="nav pull-right navbar-nav">
+            <li>
+              <a href="/main/quick-search">Quick Search</a>
+            </li>
+            <li>
+              <a href="/main/log-book">Log Book</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div id="content-wrapper">
+      <div class="container">
+        <section id="main-content">
+
+          <%= yield %>
+
+        </section>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="footer-constrain">
+        <p>created by <a href="http://pragtob.info">Tobias Pfeiffer</a></p>
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="http://pragtob.wordpress.com/">Blog</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

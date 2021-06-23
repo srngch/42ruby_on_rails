@@ -1,0 +1,88 @@
+// Place all the styles related to the Main controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+/*
+ *= require_tree .
+ *= require dataTables/jquery.dataTables
+ *= require_self
+*/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Open+Sans&family=IBM+Plex+Mono:ital@0;1&display=swap');
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #666;
+	margin-top: 60px;
+}
+
+#content-wrapper,
+.footer-constrain {
+	h1, h2, h3 {
+		font-family: 'Limelight', cursive;
+		font-weight: 400;
+		color: #ffc107;
+	}
+
+	h1 {
+		font-size: 6rem;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		padding-left: 1em;
+		margin-bottom: 0.2em;
+	}
+
+	li::before {
+		content: "🐈";
+		padding-right: 0.3em;	
+	}
+
+	code, pre {
+		border-radius: 0;
+		background-color: #ffc107;
+		border: 1px solid #555;
+		color: #555;
+		font-family: 'IBM Plex Mono', monospace;
+	}
+
+	pre > code {
+		border: none
+	}
+}
+
+section#log {
+	font-family: 'IBM Plex Mono', monospace;
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		padding-left: 1em;
+		margin-bottom: 0.5em;
+	}
+
+	li::before {
+		content: "-";
+		padding-right: 0.3em;	
+	}
+}
+
+footer {
+	width: 100% !important;
+	margin: 70px 0px 0px 0px !important;
+	padding: 30px 80px !important;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+

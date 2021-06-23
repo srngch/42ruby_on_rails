@@ -1,0 +1,26 @@
+<% content_for :title, "Log Book" %>
+
+<h1 id="logBook">Log Book</h1>
+
+<header>
+	<form action="/main/log-book" method="GET">
+		<div>
+			<label for="name">Text :</label><br>
+			<textarea name="text" id="text" cols="30" rows="10" required></textarea>
+		</div>
+		<div>
+			<input type="submit" value="Write" onclick="">
+		</div>
+	</form>
+</header>
+
+<section id="log">
+	<div>
+		<h2>Log</h2>
+		<ul>
+			<% @read.reverse.each do |d| %>
+				<li><%= "#{d}" %></li>
+			<% end %>
+		</ul>
+	</div>
+</section>

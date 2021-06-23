@@ -1,0 +1,3124 @@
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:49:35 +0900
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/controllers/main_controller.rb:15: syntax error, unexpected '-', expecting ';' or '\n'
+  def ruby-concepts
+          ^
+/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/controllers/main_controller.rb:18: syntax error, unexpected '-', expecting ';' or '\n'
+  def ruby-numbers
+          ^):
+  
+app/controllers/main_controller.rb:15: syntax error, unexpected '-', expecting ';' or '\n'
+app/controllers/main_controller.rb:18: syntax error, unexpected '-', expecting ';' or '\n'
+app/controllers/main_controller.rb:15: syntax error, unexpected '-', expecting ';' or '\n'
+app/controllers/main_controller.rb:18: syntax error, unexpected '-', expecting ';' or '\n'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:04 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 945)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:06 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 295)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:07 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:53 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 295)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:53 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:54 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:50:54 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 295)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:51:31 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 844)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:51:32 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:51:32 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:51:32 +0900
+Processing by MainController#convention as HTML
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:51:32 +0900
+Completed 500 Internal Server Error in 1ms (Allocations: 290)
+
+
+Processing by MainController#convention as HTML
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Completed 500 Internal Server Error in 1ms (Allocations: 290)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:53:50 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 2ms (Allocations: 844)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:53:50 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:53:51 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:53:52 +0900
+Processing by MainController#convention as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 291)
+
+
+  
+ActionView::MissingTemplate (Missing template layouts/main with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby]}. Searched in:
+  * "/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex02/CheatSheet/app/views"
+):
+  
+actionview (6.1.3.2) lib/action_view/path_set.rb:48:in `find'
+actionview (6.1.3.2) lib/action_view/lookup_context.rb:127:in `find'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:97:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:104:in `resolve_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:84:in `find_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:67:in `render_with_layout'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:55:in `render_template'
+actionview (6.1.3.2) lib/action_view/renderer/template_renderer.rb:11:in `render'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.1.3.2) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.1.3.2) lib/action_view/rendering.rb:117:in `block in _render_template'
+actionview (6.1.3.2) lib/action_view/base.rb:273:in `in_rendering_context'
+actionview (6.1.3.2) lib/action_view/rendering.rb:116:in `_render_template'
+actionpack (6.1.3.2) lib/action_controller/metal/streaming.rb:218:in `_render_template'
+actionview (6.1.3.2) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:52:in `render_to_body'
+actionpack (6.1.3.2) lib/action_controller/metal/renderers.rb:142:in `render_to_body'
+actionpack (6.1.3.2) lib/abstract_controller/rendering.rb:25:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:36:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block (2 levels) in render'
+/Users/sarchoi/.rbenv/versions/2.6.7/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+activesupport (6.1.3.2) lib/active_support/core_ext/benchmark.rb:14:in `ms'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:46:in `block in render'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:86:in `cleanup_view_runtime'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:39:in `cleanup_view_runtime'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:45:in `render'
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:35:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:54:49 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 107)
+  Rendered layout layouts/main.html.erb (Duration: 897.4ms | Allocations: 203128)
+Completed 500 Internal Server Error in 900ms (Allocations: 203803)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12: 
+    13:   </head>
+    14: 
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:54:51 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 32.4ms | Allocations: 17481)
+Completed 500 Internal Server Error in 33ms (Allocations: 17690)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12: 
+    13:   </head>
+    14: 
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:54:52 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 33.1ms | Allocations: 17401)
+Completed 500 Internal Server Error in 34ms (Allocations: 17609)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12: 
+    13:   </head>
+    14: 
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:26 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 102)
+  Rendered layout layouts/main.html.erb (Duration: 33.8ms | Allocations: 17745)
+Completed 500 Internal Server Error in 36ms (Allocations: 18418)
+
+
+  
+ActionView::Template::Error (application.js):
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%# <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %> %>
+    12:     <%= javascript_include_tag 'application' %>
+    13: 
+    14:   </head>
+    15: 
+  
+app/views/layouts/main.html.erb:12
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:29 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 32.5ms | Allocations: 17400)
+Completed 500 Internal Server Error in 34ms (Allocations: 17609)
+
+
+  
+ActionView::Template::Error (application.js):
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%# <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %> %>
+    12:     <%= javascript_include_tag 'application' %>
+    13: 
+    14:   </head>
+    15: 
+  
+app/views/layouts/main.html.erb:12
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:35 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 102)
+  Rendered layout layouts/main.html.erb (Duration: 32.0ms | Allocations: 17729)
+Completed 500 Internal Server Error in 34ms (Allocations: 18402)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12:     <%# <%= javascript_include_tag 'application' %> %>
+    13: 
+    14:   </head>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:36 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 32.4ms | Allocations: 17381)
+Completed 500 Internal Server Error in 33ms (Allocations: 17590)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12:     <%# <%= javascript_include_tag 'application' %> %>
+    13: 
+    14:   </head>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:36 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:36 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 122.0ms | Allocations: 76445)
+Completed 500 Internal Server Error in 123ms (Allocations: 77105)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12:     <%# <%= javascript_include_tag 'application' %> %>
+    13: 
+    14:   </head>
+  
+app/views/layouts/main.html.erb:11
+  Rendered layout layouts/main.html.erb (Duration: 540.3ms | Allocations: 208097)
+Completed 500 Internal Server Error in 541ms (Allocations: 208924)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12:     <%# <%= javascript_include_tag 'application' %> %>
+    13: 
+    14:   </head>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:55:48 +0900
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 1.2ms | Allocations: 333)
+  Rendered layout layouts/main.html.erb (Duration: 89.3ms | Allocations: 32641)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms | Allocations: 34617)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    12:     <%# <%= javascript_include_tag 'application' %> %>
+    13: 
+    14:   </head>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:33 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/main.html.erb (Duration: 74.7ms | Allocations: 31506)
+Completed 200 OK in 76ms (Views: 75.4ms | ActiveRecord: 0.0ms | Allocations: 31819)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:34 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 9172)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 9411)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:34 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 47.2ms | Allocations: 9173)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms | Allocations: 9408)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:35 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 9189)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 9428)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:36 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.7ms | Allocations: 9157)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms | Allocations: 9392)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:38 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.2ms | Allocations: 9176)
+Completed 200 OK in 18ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 9413)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:38 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 18.4ms | Allocations: 9169)
+Completed 200 OK in 19ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 9404)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:43 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 109)
+  Rendered layout layouts/main.html.erb (Duration: 18.1ms | Allocations: 9515)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms | Allocations: 10226)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:43 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9169)
+Completed 200 OK in 18ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 9405)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:56:44 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 289)
+  Rendered layout layouts/main.html.erb (Duration: 18.1ms | Allocations: 9449)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 9812)
+
+
+Started GET "/main/ruby-numbers" for 127.0.0.1 at 2021-05-30 13:56:45 +0900
+Processing by MainController#ruby_numbers as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_numbers.html.erb within layouts/main
+  Rendered main/ruby_numbers.html.erb within layouts/main (Duration: 0.4ms | Allocations: 216)
+  Rendered layout layouts/main.html.erb (Duration: 18.8ms | Allocations: 9386)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 9750)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:56:46 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 108)
+  Rendered layout layouts/main.html.erb (Duration: 31.8ms | Allocations: 9280)
+Completed 200 OK in 33ms (Views: 32.4ms | ActiveRecord: 0.0ms | Allocations: 9655)
+
+
+Started GET "/main/ruby-strings" for 127.0.0.1 at 2021-05-30 13:56:46 +0900
+Processing by MainController#ruby_strings as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_strings.html.erb within layouts/main
+  Rendered main/ruby_strings.html.erb within layouts/main (Duration: 0.6ms | Allocations: 270)
+  Rendered layout layouts/main.html.erb (Duration: 18.8ms | Allocations: 9436)
+Completed 200 OK in 20ms (Views: 19.4ms | ActiveRecord: 0.0ms | Allocations: 9799)
+
+
+Started GET "/main/ruby-numbers" for 127.0.0.1 at 2021-05-30 13:56:47 +0900
+Processing by MainController#ruby_numbers as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_numbers.html.erb within layouts/main
+  Rendered main/ruby_numbers.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.6ms | Allocations: 9179)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 9415)
+
+
+Started GET "/main/ruby-strings" for 127.0.0.1 at 2021-05-30 13:56:48 +0900
+Processing by MainController#ruby_strings as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_strings.html.erb within layouts/main
+  Rendered main/ruby_strings.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.1ms | Allocations: 9175)
+Completed 200 OK in 18ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 9410)
+
+
+Started GET "/main/ruby-arrays" for 127.0.0.1 at 2021-05-30 13:56:49 +0900
+Processing by MainController#ruby_arrays as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_arrays.html.erb within layouts/main
+  Rendered main/ruby_arrays.html.erb within layouts/main (Duration: 0.5ms | Allocations: 242)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 9416)
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.0ms | Allocations: 9778)
+
+
+Started GET "/main/ruby-hashes" for 127.0.0.1 at 2021-05-30 13:56:50 +0900
+Processing by MainController#ruby_hashes as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_hashes.html.erb within layouts/main
+  Rendered main/ruby_hashes.html.erb within layouts/main (Duration: 0.6ms | Allocations: 200)
+  Rendered layout layouts/main.html.erb (Duration: 18.1ms | Allocations: 9366)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.0ms | Allocations: 9729)
+
+
+Started GET "/main/rails-commands" for 127.0.0.1 at 2021-05-30 13:56:50 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.5ms | Allocations: 199)
+  Rendered layout layouts/main.html.erb (Duration: 18.3ms | Allocations: 9367)
+Completed 200 OK in 20ms (Views: 18.9ms | ActiveRecord: 0.0ms | Allocations: 9730)
+
+
+Started GET "/main/rails-folder-structure" for 127.0.0.1 at 2021-05-30 13:56:51 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.6ms | Allocations: 249)
+  Rendered layout layouts/main.html.erb (Duration: 18.1ms | Allocations: 9424)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.0ms | Allocations: 9786)
+
+
+Started GET "/main/rails-erb" for 127.0.0.1 at 2021-05-30 13:56:52 +0900
+Processing by MainController#rails_erb as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_erb.html.erb within layouts/main
+  Rendered main/rails_erb.html.erb within layouts/main (Duration: 0.5ms | Allocations: 144)
+  Rendered layout layouts/main.html.erb (Duration: 18.5ms | Allocations: 9314)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.0ms | Allocations: 9677)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 13:56:52 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 200)
+  Rendered layout layouts/main.html.erb (Duration: 18.3ms | Allocations: 9362)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 9725)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2021-05-30 13:56:53 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.4ms | Allocations: 131)
+  Rendered layout layouts/main.html.erb (Duration: 18.4ms | Allocations: 9302)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 9666)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:56:53 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.1ms | Allocations: 9165)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms | Allocations: 9401)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:56:54 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9165)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 9400)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 14:00:14 +0900
+Processing by MainController#convention as */*
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.6ms | Allocations: 9169)
+Completed 200 OK in 19ms (Views: 18.3ms | ActiveRecord: 0.0ms | Allocations: 9558)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 14:06:25 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.9ms | Allocations: 9179)
+Completed 200 OK in 19ms (Views: 18.6ms | Allocations: 9414)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 14:10:08 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.4ms | Allocations: 9166)
+Completed 200 OK in 18ms (Views: 18.1ms | Allocations: 9401)
+
+
+Started GET "/main/ruby-numbers" for 127.0.0.1 at 2021-05-30 14:10:10 +0900
+Processing by MainController#ruby_numbers as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_numbers.html.erb within layouts/main
+  Rendered main/ruby_numbers.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9179)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 9415)
+
+
+Started GET "/main/ruby-strings" for 127.0.0.1 at 2021-05-30 14:10:13 +0900
+Processing by MainController#ruby_strings as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_strings.html.erb within layouts/main
+  Rendered main/ruby_strings.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 18.1ms | Allocations: 9175)
+Completed 200 OK in 19ms (Views: 18.8ms | Allocations: 9410)
+
+
+Started GET "/main/ruby-arrays" for 127.0.0.1 at 2021-05-30 14:10:15 +0900
+Processing by MainController#ruby_arrays as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_arrays.html.erb within layouts/main
+  Rendered main/ruby_arrays.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9179)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 9414)
+
+
+Started GET "/main/ruby-arrays" for 127.0.0.1 at 2021-05-30 14:10:18 +0900
+Processing by MainController#ruby_arrays as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_arrays.html.erb within layouts/main
+  Rendered main/ruby_arrays.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.7ms | Allocations: 9177)
+Completed 200 OK in 17ms (Views: 17.2ms | Allocations: 9412)
+
+
+Started GET "/main/ruby-hashes" for 127.0.0.1 at 2021-05-30 14:10:19 +0900
+Processing by MainController#ruby_hashes as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_hashes.html.erb within layouts/main
+  Rendered main/ruby_hashes.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 9165)
+Completed 200 OK in 18ms (Views: 18.1ms | Allocations: 9401)
+
+
+Started GET "/main/rails-commands" for 127.0.0.1 at 2021-05-30 14:10:22 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.6ms | Allocations: 9173)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 9408)
+
+
+Started GET "/main/rails-folder-structure" for 127.0.0.1 at 2021-05-30 14:10:22 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9168)
+Completed 200 OK in 18ms (Views: 17.4ms | Allocations: 9403)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 14:10:33 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.6ms | Allocations: 9167)
+Completed 200 OK in 17ms (Views: 17.2ms | Allocations: 9402)
+
+
+Started GET "/main/ruby-strings" for 127.0.0.1 at 2021-05-30 14:10:35 +0900
+Processing by MainController#ruby_strings as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_strings.html.erb within layouts/main
+  Rendered main/ruby_strings.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.6ms | Allocations: 9167)
+Completed 200 OK in 17ms (Views: 17.2ms | Allocations: 9403)
+
+
+Started GET "/main/rails-commands" for 127.0.0.1 at 2021-05-30 14:11:12 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 30.3ms | Allocations: 9160)
+Completed 200 OK in 31ms (Views: 30.9ms | Allocations: 9395)
+
+
+Started GET "/main/rails-erb" for 127.0.0.1 at 2021-05-30 14:11:18 +0900
+Processing by MainController#rails_erb as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_erb.html.erb within layouts/main
+  Rendered main/rails_erb.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9167)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 9402)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 14:11:35 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 9163)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 9398)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2021-05-30 14:12:00 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 18.8ms | Allocations: 9161)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 9396)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 14:12:01 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 30.7ms | Allocations: 9168)
+Completed 200 OK in 32ms (Views: 31.2ms | Allocations: 9403)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 14:14:08 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 201)
+  Rendered layout layouts/main.html.erb (Duration: 20.4ms | Allocations: 9600)
+Completed 200 OK in 23ms (Views: 21.9ms | Allocations: 10300)
+
+
+Started GET "/" for ::1 at 2021-05-30 14:22:40 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.5ms | Allocations: 102)
+  Rendered layout layouts/main.html.erb (Duration: 32.5ms | Allocations: 9399)
+Completed 200 OK in 36ms (Views: 34.2ms | Allocations: 10107)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:22:42 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.5ms | Allocations: 266)
+  Rendered layout layouts/main.html.erb (Duration: 17.7ms | Allocations: 9402)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 9765)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:11 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.6ms | Allocations: 282)
+  Rendered layout layouts/main.html.erb (Duration: 18.3ms | Allocations: 9671)
+Completed 200 OK in 21ms (Views: 19.7ms | Allocations: 10370)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:12 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.8ms | Allocations: 9150)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 9386)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:12 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.4ms | Allocations: 9145)
+Completed 200 OK in 18ms (Views: 18.0ms | Allocations: 9380)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:13 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.9ms | Allocations: 9144)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 9379)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:27 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.6ms | Allocations: 280)
+  Rendered layout layouts/main.html.erb (Duration: 18.4ms | Allocations: 9667)
+Completed 200 OK in 21ms (Views: 19.8ms | Allocations: 10365)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:28 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 31.4ms | Allocations: 9147)
+Completed 200 OK in 32ms (Views: 32.0ms | Allocations: 9383)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:28 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.6ms | Allocations: 9150)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 9385)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:30 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 9136)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 9371)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:51 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.6ms | Allocations: 285)
+  Rendered layout layouts/main.html.erb (Duration: 18.1ms | Allocations: 9664)
+Completed 200 OK in 21ms (Views: 19.5ms | Allocations: 10364)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:23:52 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.2ms | Allocations: 9140)
+Completed 200 OK in 17ms (Views: 16.8ms | Allocations: 9376)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:25:33 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.6ms | Allocations: 282)
+  Rendered layout layouts/main.html.erb (Duration: 19.2ms | Allocations: 9665)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 10363)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:26:10 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.6ms | Allocations: 280)
+  Rendered layout layouts/main.html.erb (Duration: 31.2ms | Allocations: 9660)
+Completed 200 OK in 34ms (Views: 32.6ms | Allocations: 10358)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:26:22 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.5ms | Allocations: 283)
+  Rendered layout layouts/main.html.erb (Duration: 18.2ms | Allocations: 9666)
+Completed 200 OK in 20ms (Views: 19.6ms | Allocations: 10366)
+
+
+Started GET "/main/ruby" for ::1 at 2021-05-30 14:26:42 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 17.9ms | Allocations: 9486)
+Completed 200 OK in 20ms (Views: 19.3ms | Allocations: 10196)
+
+
+Started GET "/main/ruby-numbers" for ::1 at 2021-05-30 14:26:43 +0900
+Processing by MainController#ruby_numbers as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_numbers.html.erb within layouts/main
+  Rendered main/ruby_numbers.html.erb within layouts/main (Duration: 0.6ms | Allocations: 212)
+  Rendered layout layouts/main.html.erb (Duration: 18.6ms | Allocations: 9347)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 9710)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:27:37 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.7ms | Allocations: 377)
+  Rendered layout layouts/main.html.erb (Duration: 20.1ms | Allocations: 9754)
+Completed 200 OK in 22ms (Views: 21.6ms | Allocations: 10452)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:27:41 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.9ms | Allocations: 9144)
+Completed 200 OK in 19ms (Views: 18.7ms | Allocations: 9380)
+
+
+Started GET "/main/ruby-strings" for ::1 at 2021-05-30 14:27:49 +0900
+Processing by MainController#ruby_strings as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_strings.html.erb within layouts/main
+  Rendered main/ruby_strings.html.erb within layouts/main (Duration: 0.6ms | Allocations: 259)
+  Rendered layout layouts/main.html.erb (Duration: 17.8ms | Allocations: 9400)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 9762)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:28:25 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.9ms | Allocations: 525)
+  Rendered layout layouts/main.html.erb (Duration: 33.4ms | Allocations: 9898)
+Completed 200 OK in 36ms (Views: 35.1ms | Allocations: 10596)
+
+
+Started GET "/main/ruby-arrays" for ::1 at 2021-05-30 14:28:30 +0900
+Processing by MainController#ruby_arrays as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_arrays.html.erb within layouts/main
+  Rendered main/ruby_arrays.html.erb within layouts/main (Duration: 0.6ms | Allocations: 242)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 9373)
+Completed 200 OK in 19ms (Views: 18.1ms | Allocations: 9736)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:29:22 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.0ms | Allocations: 649)
+  Rendered layout layouts/main.html.erb (Duration: 19.0ms | Allocations: 10034)
+Completed 200 OK in 21ms (Views: 20.4ms | Allocations: 10734)
+
+
+Started GET "/main/ruby-hashes" for ::1 at 2021-05-30 14:29:27 +0900
+Processing by MainController#ruby_hashes as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_hashes.html.erb within layouts/main
+  Rendered main/ruby_hashes.html.erb within layouts/main (Duration: 0.5ms | Allocations: 196)
+  Rendered layout layouts/main.html.erb (Duration: 17.8ms | Allocations: 9321)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 9684)
+
+
+Started GET "/main/rails-folder-structure" for ::1 at 2021-05-30 14:30:04 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.7ms | Allocations: 245)
+  Rendered layout layouts/main.html.erb (Duration: 17.8ms | Allocations: 9375)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 9736)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:31:43 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.4ms | Allocations: 908)
+  Rendered layout layouts/main.html.erb (Duration: 19.4ms | Allocations: 10287)
+Completed 200 OK in 22ms (Views: 20.9ms | Allocations: 10985)
+
+
+Started GET "/main/rails-commands" for ::1 at 2021-05-30 14:31:53 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.5ms | Allocations: 195)
+  Rendered layout layouts/main.html.erb (Duration: 17.7ms | Allocations: 9334)
+Completed 200 OK in 33ms (Views: 32.2ms | Allocations: 9697)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:33:41 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 1006)
+  Rendered layout layouts/main.html.erb (Duration: 19.6ms | Allocations: 10384)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 11084)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:34:52 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 1001)
+  Rendered layout layouts/main.html.erb (Duration: 19.5ms | Allocations: 10376)
+Completed 200 OK in 22ms (Views: 21.0ms | Allocations: 11074)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:35:01 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 1000)
+  Rendered layout layouts/main.html.erb (Duration: 19.9ms | Allocations: 10384)
+Completed 200 OK in 22ms (Views: 21.3ms | Allocations: 11082)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:35:02 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 31.8ms | Allocations: 9149)
+Completed 200 OK in 33ms (Views: 32.6ms | Allocations: 9385)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:35:33 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 1005)
+  Rendered layout layouts/main.html.erb (Duration: 19.5ms | Allocations: 10378)
+Completed 200 OK in 22ms (Views: 20.9ms | Allocations: 11078)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:35:34 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 9146)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 9382)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:35:34 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 18.4ms | Allocations: 9154)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 9389)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:35:34 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 33.8ms | Allocations: 9129)
+Completed 200 OK in 35ms (Views: 34.4ms | Allocations: 9364)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:36:19 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 1004)
+  Rendered layout layouts/main.html.erb (Duration: 19.5ms | Allocations: 10385)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 11085)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:36:42 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 999)
+  Rendered layout layouts/main.html.erb (Duration: 19.5ms | Allocations: 10382)
+Completed 200 OK in 22ms (Views: 20.9ms | Allocations: 11080)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:36:43 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.1ms | Allocations: 9138)
+Completed 200 OK in 18ms (Views: 17.7ms | Allocations: 9374)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:36:43 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 30.7ms | Allocations: 9137)
+Completed 200 OK in 32ms (Views: 31.4ms | Allocations: 9372)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:37:20 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 1002)
+  Rendered layout layouts/main.html.erb (Duration: 19.2ms | Allocations: 10381)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 11081)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:37:53 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 998)
+  Rendered layout layouts/main.html.erb (Duration: 19.4ms | Allocations: 10370)
+Completed 200 OK in 22ms (Views: 20.8ms | Allocations: 11068)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:38:48 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 997)
+  Rendered layout layouts/main.html.erb (Duration: 19.3ms | Allocations: 10382)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 11080)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:41:14 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 995)
+  Rendered layout layouts/main.html.erb (Duration: 19.1ms | Allocations: 10368)
+Completed 200 OK in 21ms (Views: 20.5ms | Allocations: 11068)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:42:01 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 992)
+  Rendered layout layouts/main.html.erb (Duration: 19.3ms | Allocations: 10371)
+Completed 200 OK in 22ms (Views: 20.7ms | Allocations: 11069)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:42:41 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.5ms | Allocations: 994)
+  Rendered layout layouts/main.html.erb (Duration: 19.7ms | Allocations: 10379)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 11077)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:42:42 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 9147)
+Completed 200 OK in 18ms (Views: 18.1ms | Allocations: 9383)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:45:25 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 998)
+  Rendered layout layouts/main.html.erb (Duration: 20.1ms | Allocations: 10385)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 11085)
+
+
+Started GET "/main/rails-erb" for ::1 at 2021-05-30 14:45:38 +0900
+Processing by MainController#rails_erb as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_erb.html.erb within layouts/main
+  Rendered main/rails_erb.html.erb within layouts/main (Duration: 0.4ms | Allocations: 140)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 9261)
+Completed 200 OK in 19ms (Views: 18.1ms | Allocations: 9624)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:46:40 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 1021)
+  Rendered layout layouts/main.html.erb (Duration: 21.5ms | Allocations: 10406)
+Completed 200 OK in 24ms (Views: 23.0ms | Allocations: 11104)
+
+
+Started GET "/main/editor" for ::1 at 2021-05-30 14:46:45 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 196)
+  Rendered layout layouts/main.html.erb (Duration: 31.6ms | Allocations: 9328)
+Completed 200 OK in 33ms (Views: 32.2ms | Allocations: 9691)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:48:08 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.8ms | Allocations: 1130)
+  Rendered layout layouts/main.html.erb (Duration: 20.0ms | Allocations: 10515)
+Completed 200 OK in 23ms (Views: 21.7ms | Allocations: 11215)
+
+
+Started GET "/main/editor" for ::1 at 2021-05-30 14:48:12 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 196)
+  Rendered layout layouts/main.html.erb (Duration: 18.3ms | Allocations: 9339)
+Completed 200 OK in 20ms (Views: 19.2ms | Allocations: 9702)
+
+
+Started GET "/main/help" for ::1 at 2021-05-30 14:48:12 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.4ms | Allocations: 122)
+  Rendered layout layouts/main.html.erb (Duration: 16.9ms | Allocations: 9253)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 9616)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:49:49 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.7ms | Allocations: 1125)
+  Rendered layout layouts/main.html.erb (Duration: 21.4ms | Allocations: 10504)
+Completed 200 OK in 24ms (Views: 22.9ms | Allocations: 11202)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:54:13 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.7ms | Allocations: 1130)
+  Rendered layout layouts/main.html.erb (Duration: 217.8ms | Allocations: 48284)
+Completed 200 OK in 220ms (Views: 219.1ms | Allocations: 48984)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:54:33 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.7ms | Allocations: 1130)
+  Rendered layout layouts/main.html.erb (Duration: 19.7ms | Allocations: 10515)
+Completed 200 OK in 22ms (Views: 21.2ms | Allocations: 11215)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:54:34 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 26.0ms | Allocations: 9148)
+Completed 200 OK in 27ms (Views: 26.8ms | Allocations: 9384)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:54:34 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 32.5ms | Allocations: 9252)
+Completed 200 OK in 35ms (Views: 35.0ms | Allocations: 9573)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:55:56 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 34.0ms | Allocations: 1130)
+  Rendered layout layouts/main.html.erb (Duration: 52.5ms | Allocations: 10509)
+Completed 200 OK in 56ms (Views: 54.2ms | Allocations: 11207)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:56:48 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 418.5ms | Allocations: 95190)
+Completed 200 OK in 419ms (Views: 419.1ms | Allocations: 95426)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:57:03 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 20.9ms | Allocations: 10524)
+Completed 200 OK in 22ms (Views: 21.5ms | Allocations: 10759)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:57:43 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 19.2ms | Allocations: 10516)
+Completed 200 OK in 20ms (Views: 19.8ms | Allocations: 10751)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:58:16 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 428.6ms | Allocations: 103265)
+Completed 200 OK in 429ms (Views: 429.2ms | Allocations: 103500)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:58:28 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 1134)
+  Rendered layout layouts/main.html.erb (Duration: 21.3ms | Allocations: 12233)
+Completed 200 OK in 24ms (Views: 22.6ms | Allocations: 12933)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:58:29 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 20.9ms | Allocations: 10856)
+Completed 200 OK in 22ms (Views: 21.6ms | Allocations: 11092)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:59:15 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.7ms | Allocations: 1130)
+  Rendered layout layouts/main.html.erb (Duration: 22.3ms | Allocations: 12233)
+Completed 200 OK in 25ms (Views: 23.9ms | Allocations: 12931)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 14:59:15 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 19.4ms | Allocations: 10858)
+Completed 200 OK in 20ms (Views: 20.0ms | Allocations: 11094)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:00:06 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.8ms | Allocations: 1134)
+  Rendered layout layouts/main.html.erb (Duration: 22.6ms | Allocations: 12231)
+Completed 200 OK in 25ms (Views: 24.3ms | Allocations: 12931)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:00:17 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.6ms | Allocations: 1130)
+  Rendered layout layouts/main.html.erb (Duration: 21.8ms | Allocations: 12223)
+Completed 200 OK in 24ms (Views: 23.1ms | Allocations: 12921)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:00:51 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 419.0ms | Allocations: 96648)
+Completed 200 OK in 420ms (Views: 419.7ms | Allocations: 96884)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:01:43 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 416.4ms | Allocations: 96970)
+Completed 200 OK in 417ms (Views: 417.0ms | Allocations: 97205)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:01:44 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 20.3ms | Allocations: 10524)
+Completed 200 OK in 21ms (Views: 20.9ms | Allocations: 10759)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:01:51 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 433.1ms | Allocations: 96977)
+Completed 200 OK in 434ms (Views: 433.7ms | Allocations: 97212)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:01:53 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 20.2ms | Allocations: 10518)
+Completed 200 OK in 21ms (Views: 20.8ms | Allocations: 10753)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:01 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 413.0ms | Allocations: 96985)
+Completed 200 OK in 414ms (Views: 413.5ms | Allocations: 97220)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:03 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 19.9ms | Allocations: 10528)
+Completed 200 OK in 21ms (Views: 20.5ms | Allocations: 10763)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:10 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 498.0ms | Allocations: 96963)
+Completed 200 OK in 499ms (Views: 498.5ms | Allocations: 97198)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:28 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 420.7ms | Allocations: 96979)
+Completed 200 OK in 422ms (Views: 421.3ms | Allocations: 97214)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:29 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 19.2ms | Allocations: 10514)
+Completed 200 OK in 20ms (Views: 19.8ms | Allocations: 10749)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:35 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 416.7ms | Allocations: 96969)
+Completed 200 OK in 418ms (Views: 417.3ms | Allocations: 97204)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:02:48 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 415.2ms | Allocations: 96983)
+Completed 200 OK in 416ms (Views: 415.8ms | Allocations: 97218)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:03:34 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 415.1ms | Allocations: 96997)
+Completed 200 OK in 416ms (Views: 415.6ms | Allocations: 97232)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:03:49 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 416.8ms | Allocations: 96984)
+Completed 200 OK in 418ms (Views: 417.4ms | Allocations: 97219)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:03:53 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 410.0ms | Allocations: 96996)
+Completed 200 OK in 411ms (Views: 410.6ms | Allocations: 97231)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:03:57 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 410.7ms | Allocations: 96993)
+Completed 200 OK in 412ms (Views: 411.3ms | Allocations: 97228)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:04:20 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 414.2ms | Allocations: 96974)
+Completed 200 OK in 415ms (Views: 414.7ms | Allocations: 97209)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:04:30 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 500.9ms | Allocations: 96970)
+Completed 200 OK in 502ms (Views: 501.4ms | Allocations: 97205)
+
+
+Started GET "/" for ::1 at 2021-05-30 15:05:45 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 113)
+  Rendered layout layouts/main.html.erb (Duration: 20.5ms | Allocations: 10672)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 11034)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 15:05:47 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 18.9ms | Allocations: 10516)
+Completed 200 OK in 20ms (Views: 19.4ms | Allocations: 10752)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 15:09:22 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.6ms | Allocations: 289)
+  Rendered layout layouts/main.html.erb (Duration: 21.8ms | Allocations: 10829)
+Completed 200 OK in 23ms (Views: 22.5ms | Allocations: 11191)
+
+
+Started GET "/main/quick-search" for 127.0.0.1 at 2021-05-30 15:09:23 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 19.3ms | Allocations: 10549)
+Completed 200 OK in 20ms (Views: 19.9ms | Allocations: 10785)
+
+
+Started GET "/main/rails-folder-structure" for ::1 at 2021-05-30 15:15:08 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.8ms | Allocations: 254)
+  Rendered layout layouts/main.html.erb (Duration: 21.7ms | Allocations: 10770)
+Completed 200 OK in 23ms (Views: 22.3ms | Allocations: 11130)
+
+
+Started GET "/main/rails-folder-structure" for ::1 at 2021-05-30 15:15:09 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 32.6ms | Allocations: 10521)
+Completed 200 OK in 33ms (Views: 33.2ms | Allocations: 10757)
+
+
+Started GET "/main/rails-folder-structure" for ::1 at 2021-05-30 15:22:20 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.6ms | Allocations: 250)
+  Rendered layout layouts/main.html.erb (Duration: 22.9ms | Allocations: 11010)
+Completed 200 OK in 25ms (Views: 24.5ms | Allocations: 11708)
+
+
+Started GET "/" for ::1 at 2021-05-30 17:05:43 +0900
+  [1m[35m (20.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 1.1ms | Allocations: 333)
+  Rendered layout layouts/main.html.erb (Duration: 152.1ms | Allocations: 51689)
+Completed 200 OK in 159ms (Views: 156.2ms | ActiveRecord: 0.0ms | Allocations: 53697)
+
+
+Started GET "/" for ::1 at 2021-05-30 17:05:50 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 107)
+  Rendered layout layouts/main.html.erb (Duration: 20.5ms | Allocations: 10947)
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.0ms | Allocations: 11653)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 17:05:51 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 5.2ms | Allocations: 1136)
+  Rendered layout layouts/main.html.erb (Duration: 58.2ms | Allocations: 11712)
+Completed 200 OK in 61ms (Views: 58.8ms | ActiveRecord: 0.0ms | Allocations: 12079)
+
+
+Started GET "/main/quick-search" for ::1 at 2021-05-30 17:06:04 +0900
+Processing by MainController#quick_search as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/quick_search.html.erb within layouts/main
+  Rendered main/quick_search.html.erb within layouts/main (Duration: 1.7ms | Allocations: 1134)
+  Rendered layout layouts/main.html.erb (Duration: 21.4ms | Allocations: 11958)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms | Allocations: 12660)
+
+

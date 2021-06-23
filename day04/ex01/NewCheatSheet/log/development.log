@@ -1,0 +1,2975 @@
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1698)
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 13133)
+Completed 200 OK in 68ms (Views: 63.9ms | ActiveRecord: 0.0ms | Allocations: 15240)
+
+
+Started GET "/stylesheets/stylesheet.css" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheet.css"):
+  
+Started GET "/javascripts/jquery-1.9.1.min.js" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+Started GET "/javascripts/main.js" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery-1.9.1.min.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/bootstrap.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/main.js"):
+  
+Started GET "/stylesheets/pygment_trac.css" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/pygment_trac.css"):
+  
+Started GET "/stylesheets/print.css" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+Started GET "/stylesheets/stylesheet.css" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/print.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheet.css"):
+  
+Started GET "/javascripts/jquery-1.9.1.min.js" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery-1.9.1.min.js"):
+  
+Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/bootstrap.js"):
+  
+Started GET "/javascripts/main.js" for 127.0.0.1 at 2021-05-29 22:24:14 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/main.js"):
+  
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:25:20 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 17.7ms | Allocations: 4233)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms | Allocations: 4527)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 4:1 of app/assets/stylesheets/main.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/main.scss:4
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:25:42 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2848)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3071)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 4:1 of app/assets/stylesheets/main.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/main.scss:4
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:25:43 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2819)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3041)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 4:1 of app/assets/stylesheets/main.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/main.scss:4
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:25:44 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 10173)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 10919)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: bootstrap-sprockets.
+        on line 4:1 of app/assets/stylesheets/main.scss
+>> @import "bootstrap-sprockets";
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/main.scss:4
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1698)
+  Rendered layout layouts/application.html.erb (Duration: 343.4ms | Allocations: 62823)
+Completed 200 OK in 350ms (Views: 347.7ms | ActiveRecord: 0.0ms | Allocations: 64929)
+
+
+Started GET "/stylesheets/stylesheet.css" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+Started GET "/javascripts/jquery-1.9.1.min.js" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery-1.9.1.min.js"):
+  
+Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheet.css"):
+  
+Started GET "/javascripts/main.js" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/bootstrap.js"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/main.js"):
+  
+Started GET "/stylesheets/pygment_trac.css" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/pygment_trac.css"):
+  
+Started GET "/stylesheets/print.css" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+Started GET "/stylesheets/stylesheet.css" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/print.css"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheet.css"):
+  
+Started GET "/javascripts/jquery-1.9.1.min.js" for 127.0.0.1 at 2021-05-29 22:25:57 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/jquery-1.9.1.min.js"):
+  
+Started GET "/javascripts/bootstrap.js" for 127.0.0.1 at 2021-05-29 22:25:58 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/bootstrap.js"):
+  
+Started GET "/javascripts/main.js" for 127.0.0.1 at 2021-05-29 22:25:58 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/javascripts/main.js"):
+  
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:27:08 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1456)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 6976)
+Completed 200 OK in 17ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 7860)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:27:53 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1492)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 6928)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 7724)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:28:11 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 1488)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 6934)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 7729)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:30:36 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 214.0ms | Allocations: 45292)
+Completed 200 OK in 215ms (Views: 214.6ms | ActiveRecord: 0.0ms | Allocations: 45542)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:30:44 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5538)
+Completed 200 OK in 11ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 5787)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:31:43 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 234.5ms | Allocations: 47734)
+Completed 200 OK in 235ms (Views: 235.1ms | ActiveRecord: 0.0ms | Allocations: 47983)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:31:49 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5724)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5973)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:31:49 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5679)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 5929)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:31:49 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5681)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms | Allocations: 5931)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:31:50 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 5685)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms | Allocations: 5935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:32:09 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5682)
+Completed 200 OK in 12ms (Views: 11.9ms | Allocations: 5931)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:32:43 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 235.4ms | Allocations: 50022)
+Completed 200 OK in 236ms (Views: 236.0ms | Allocations: 50271)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:06 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 221.1ms | Allocations: 50017)
+Completed 200 OK in 222ms (Views: 221.7ms | Allocations: 50266)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:07 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5703)
+Completed 200 OK in 11ms (Views: 11.2ms | Allocations: 5953)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:07 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5684)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 5933)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:07 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5672)
+Completed 200 OK in 11ms (Views: 11.2ms | Allocations: 5921)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:22 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 5680)
+Completed 200 OK in 23ms (Views: 22.3ms | Allocations: 5929)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:24 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 5724)
+Completed 200 OK in 20ms (Views: 19.7ms | Allocations: 5973)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:24 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 5682)
+Completed 200 OK in 19ms (Views: 18.5ms | Allocations: 5931)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:25 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 46.3ms | Allocations: 5683)
+Completed 200 OK in 47ms (Views: 46.9ms | Allocations: 5932)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:33:42 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 65.7ms | Allocations: 21178)
+Completed 500 Internal Server Error in 67ms (Allocations: 21404)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected 1 selector or at-rule, was "..content-wrapper	h"
+        on line 11:2 of app/assets/stylesheets/main.scss
+>> }
+
+   -^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/main.scss:11
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:10 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 230.7ms | Allocations: 50013)
+Completed 200 OK in 232ms (Views: 231.3ms | Allocations: 50263)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:12 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 5686)
+Completed 200 OK in 12ms (Views: 12.0ms | Allocations: 5935)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:17 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 65.8ms | Allocations: 20631)
+Completed 500 Internal Server Error in 67ms (Allocations: 20852)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "	}": expected "}", was ""
+        on line 49:3 of app/assets/stylesheets/main.scss
+>> 	}
+
+   --^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/assets/stylesheets/main.scss:49
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:21 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 217.4ms | Allocations: 50024)
+Completed 200 OK in 218ms (Views: 218.0ms | Allocations: 50274)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:22 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 22.8ms | Allocations: 5727)
+Completed 200 OK in 24ms (Views: 23.5ms | Allocations: 5976)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:22 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5668)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 5917)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:22 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5690)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 5939)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:34:52 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 233.5ms | Allocations: 50028)
+Completed 200 OK in 234ms (Views: 234.1ms | Allocations: 50277)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:36:15 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 220.2ms | Allocations: 50023)
+Completed 200 OK in 221ms (Views: 220.9ms | Allocations: 50272)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:36:19 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 218.0ms | Allocations: 50019)
+Completed 200 OK in 219ms (Views: 218.6ms | Allocations: 50269)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-29 22:36:27 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 230.4ms | Allocations: 50047)
+Completed 200 OK in 231ms (Views: 230.9ms | Allocations: 50296)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:00:15 +0900
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1718)
+  Rendered layout layouts/application.html.erb (Duration: 124.2ms | Allocations: 27161)
+Completed 200 OK in 135ms (Views: 130.8ms | ActiveRecord: 0.0ms | Allocations: 29267)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:38 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 1490)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 7346)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 8152)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:39 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 23.0ms | Allocations: 5697)
+Completed 200 OK in 24ms (Views: 23.6ms | Allocations: 5951)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:40 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5702)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 5951)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:41 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 5716)
+Completed 200 OK in 12ms (Views: 11.9ms | Allocations: 5965)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:42 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 5708)
+Completed 200 OK in 27ms (Views: 27.2ms | Allocations: 5960)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:42 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 29.3ms | Allocations: 5704)
+Completed 200 OK in 30ms (Views: 30.0ms | Allocations: 5953)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:48 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 5706)
+Completed 200 OK in 28ms (Views: 26.4ms | Allocations: 6098)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:49 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5703)
+Completed 200 OK in 11ms (Views: 11.2ms | Allocations: 5953)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:49 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 5706)
+Completed 200 OK in 11ms (Views: 11.0ms | Allocations: 5955)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:51 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5700)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 5949)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:55 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 5698)
+Completed 200 OK in 11ms (Views: 11.2ms | Allocations: 5947)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:56 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5708)
+Completed 200 OK in 11ms (Views: 11.1ms | Allocations: 5957)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:56 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 5706)
+Completed 200 OK in 13ms (Views: 12.5ms | Allocations: 5955)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:01:56 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 20.0ms | Allocations: 5702)
+Completed 200 OK in 21ms (Views: 20.7ms | Allocations: 5952)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:13 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5703)
+Completed 200 OK in 12ms (Views: 12.0ms | Allocations: 6093)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:13 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 5710)
+Completed 200 OK in 12ms (Views: 12.0ms | Allocations: 5959)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:13 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 5706)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 5955)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:14 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 5700)
+Completed 200 OK in 12ms (Views: 11.7ms | Allocations: 5949)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:20 +0900
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:20 +0900
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1763)
+  Rendered main/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1631)
+  Rendered layout layouts/application.html.erb (Duration: 91.2ms | Allocations: 32586)
+  Rendered layout layouts/application.html.erb (Duration: 90.3ms | Allocations: 32231)
+Completed 200 OK in 99ms (Views: 95.8ms | ActiveRecord: 0.0ms | Allocations: 34961)
+
+
+Completed 200 OK in 100ms (Views: 97.2ms | ActiveRecord: 0.0ms | Allocations: 35182)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:21 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 5706)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 5959)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:21 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5708)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5960)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:47 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 7.7ms | Allocations: 1490)
+  Rendered layout layouts/application.html.erb (Duration: 36.7ms | Allocations: 7345)
+Completed 200 OK in 43ms (Views: 41.9ms | Allocations: 8150)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:02:47 +0900
+  
+AbstractController::ActionNotFound (The action 'ruby' could not be found for MainController):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:02:51 +0900
+  
+AbstractController::ActionNotFound (The action 'ruby' could not be found for MainController):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:02:54 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 1488)
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 7478)
+Completed 200 OK in 19ms (Views: 17.4ms | Allocations: 8361)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:02:55 +0900
+  
+AbstractController::ActionNotFound (The action 'ruby' could not be found for MainController):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:02:56 +0900
+  
+AbstractController::ActionNotFound (The action 'ruby' could not be found for MainController):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:03:31 +0900
+  
+ArgumentError ('./' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:03:32 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 5699)
+Completed 200 OK in 33ms (Views: 30.9ms | Allocations: 6091)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:03:33 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 5698)
+Completed 200 OK in 13ms (Views: 12.5ms | Allocations: 5947)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:03:33 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:03:37 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:04:11 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 5705)
+Completed 200 OK in 21ms (Views: 20.7ms | Allocations: 5955)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:04:12 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 5714)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 5963)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:04:12 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 14.6ms | Allocations: 7007)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 7301)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:04:14 +0900
+  
+AbstractController::ActionNotFound (The action 'console' could not be found for MainController):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:05:39 +0900
+  
+ArgumentError ('' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:6:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:05:40 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 5704)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 6095)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:05:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:05:43 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:05:43 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:05:43 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:05:46 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/ruby"):
+  
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:09:08 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1487)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 7350)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 8155)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:09:10 +0900
+  
+AbstractController::ActionNotFound (The action 'console' could not be found for MainController):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:16:51 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 27.7ms | Allocations: 5700)
+Completed 200 OK in 29ms (Views: 28.8ms | Allocations: 6090)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:16:52 +0900
+Started GET "/main" for 127.0.0.1 at 2021-05-30 12:16:52 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 5702)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 5951)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:16:53 +0900
+Started GET "/main" for 127.0.0.1 at 2021-05-30 12:16:53 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 5710)
+Completed 200 OK in 11ms (Views: 11.1ms | Allocations: 5959)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:16:54 +0900
+Started GET "/main" for 127.0.0.1 at 2021-05-30 12:16:54 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 5692)
+Completed 200 OK in 11ms (Views: 10.6ms | Allocations: 5941)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:17:24 +0900
+Started GET "/main" for 127.0.0.1 at 2021-05-30 12:17:24 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5707)
+Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 6097)
+
+
+Started GET "/main" for 127.0.0.1 at 2021-05-30 12:25:07 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5700)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 5949)
+
+
+Started GET "/main" for 127.0.0.1 at 2021-05-30 12:27:03 +0900
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1718)
+  Rendered layout layouts/application.html.erb (Duration: 144.7ms | Allocations: 44875)
+Completed 200 OK in 151ms (Views: 148.7ms | ActiveRecord: 0.0ms | Allocations: 46983)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:27:04 +0900
+Processing by MainController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 5758)
+Completed 200 OK in 30ms (Views: 29.5ms | ActiveRecord: 0.0ms | Allocations: 6011)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:25 +0900
+  
+SyntaxError (/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex01/NewCheatSheet/app/controllers/main_controller.rb:14: syntax error, unexpected '-', expecting ';' or '\n'
+  def ruby-concepts
+          ^
+/goinfre/sarchoi/42Cursus/proj/piscine-ruby_on_rails/day04/ex01/NewCheatSheet/app/controllers/main_controller.rb:17: syntax error, unexpected '-', expecting ';' or '\n'
+  def ruby-numbers
+          ^):
+  
+app/controllers/main_controller.rb:14: syntax error, unexpected '-', expecting ';' or '\n'
+app/controllers/main_controller.rb:17: syntax error, unexpected '-', expecting ';' or '\n'
+app/controllers/main_controller.rb:14: syntax error, unexpected '-', expecting ';' or '\n'
+app/controllers/main_controller.rb:17: syntax error, unexpected '-', expecting ';' or '\n'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:43 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1494)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3398)
+Completed 500 Internal Server Error in 9ms (Allocations: 4243)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:44 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1691)
+Completed 500 Internal Server Error in 4ms (Allocations: 1914)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:45 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 1691)
+Completed 500 Internal Server Error in 4ms (Allocations: 1913)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:45 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 0.2ms | Allocations: 90)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 7255)
+Completed 500 Internal Server Error in 8ms (Allocations: 8345)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:45 +0900
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:45 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 23.6ms | Allocations: 12945)
+Completed 500 Internal Server Error in 25ms (Allocations: 13826)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+  Rendered layout layouts/application.html.erb (Duration: 448.8ms | Allocations: 117479)
+Completed 500 Internal Server Error in 451ms (Allocations: 119255)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:30:47 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1690)
+Completed 500 Internal Server Error in 4ms (Allocations: 1911)
+
+
+  
+ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:31:37 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1487)
+  Rendered layout layouts/application.html.erb (Duration: 257.0ms | Allocations: 39664)
+Completed 200 OK in 259ms (Views: 258.6ms | Allocations: 40471)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:31:40 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/console.html.erb within layouts/application
+  Rendered main/console.html.erb within layouts/application (Duration: 0.4ms | Allocations: 85)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 5239)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 5616)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:31:44 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/console.html.erb within layouts/application
+  Rendered main/console.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 5157)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 5407)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:36:34 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/console.html.erb within layouts/application
+  Rendered main/console.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 10.9ms | Allocations: 5428)
+Completed 200 OK in 13ms (Views: 12.5ms | Allocations: 6225)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:36:35 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/console.html.erb within layouts/application
+  Rendered main/console.html.erb within layouts/application (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5164)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 5414)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:36:36 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/convention.html.erb within layouts/application
+  Rendered main/convention.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1437)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 6596)
+Completed 200 OK in 14ms (Views: 13.4ms | Allocations: 6972)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:37:07 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/console.html.erb within layouts/application
+  Rendered main/console.html.erb within layouts/application (Duration: 0.3ms | Allocations: 78)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 5437)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 6232)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:40:06 +0900
+  
+NoMethodError (undefined method `resources' for MainController:Class
+Did you mean?  rescue):
+  
+app/controllers/main_controller.rb:2:in `<class:MainController>'
+app/controllers/main_controller.rb:1:in `<top (required)>'
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:42:30 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 2.5ms | Allocations: 1436)
+  Rendered layout layouts/main.html.erb (Duration: 12.7ms | Allocations: 6785)
+Completed 200 OK in 15ms (Views: 14.3ms | Allocations: 7491)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:42:32 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 10.7ms | Allocations: 5154)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 5390)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:42:33 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.3ms | Allocations: 82)
+  Rendered layout layouts/main.html.erb (Duration: 10.6ms | Allocations: 5229)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 5591)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:42:37 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 268)
+  Rendered layout layouts/main.html.erb (Duration: 11.2ms | Allocations: 5609)
+Completed 200 OK in 13ms (Views: 12.6ms | Allocations: 6308)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:43:21 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/main.html.erb (Duration: 11.0ms | Allocations: 5635)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 6333)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:43:24 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 2.2ms | Allocations: 1246)
+  Rendered layout layouts/main.html.erb (Duration: 13.8ms | Allocations: 6409)
+Completed 200 OK in 15ms (Views: 14.4ms | Allocations: 6772)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:47:42 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.3ms | Allocations: 89)
+  Rendered layout layouts/main.html.erb (Duration: 11.2ms | Allocations: 5451)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 6151)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:51:12 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 366.7ms | Allocations: 67231)
+Completed 200 OK in 368ms (Views: 367.3ms | Allocations: 67467)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:51:14 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 272)
+  Rendered layout layouts/main.html.erb (Duration: 10.6ms | Allocations: 5348)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 5710)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:51:14 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.3ms | Allocations: 90)
+  Rendered layout layouts/main.html.erb (Duration: 11.3ms | Allocations: 5170)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 5544)
+
+
+Started GET "/main/" for 127.0.0.1 at 2021-05-30 12:51:15 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main"):
+  
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:52:47 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.3ms | Allocations: 84)
+  Rendered layout layouts/main.html.erb (Duration: 11.4ms | Allocations: 5410)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 6110)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:52:50 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 10.5ms | Allocations: 5085)
+Completed 200 OK in 11ms (Views: 11.1ms | Allocations: 5321)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:52:53 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 10.3ms | Allocations: 5093)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 5328)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:53:50 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.5ms | Allocations: 104)
+  Rendered layout layouts/main.html.erb (Duration: 11.7ms | Allocations: 5403)
+Completed 200 OK in 14ms (Views: 13.5ms | Allocations: 6101)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 12:55:57 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 106)
+  Rendered layout layouts/main.html.erb (Duration: 12.0ms | Allocations: 5413)
+Completed 200 OK in 14ms (Views: 13.3ms | Allocations: 6113)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:56:03 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 106)
+  Rendered layout layouts/main.html.erb (Duration: 11.0ms | Allocations: 5187)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 5561)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:56:04 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/main.html.erb (Duration: 10.9ms | Allocations: 5355)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 5718)
+
+
+Started GET "/main/" for 127.0.0.1 at 2021-05-30 12:56:04 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main"):
+  
+Started GET "/main/" for 127.0.0.1 at 2021-05-30 12:56:06 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main"):
+  
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 12:58:15 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.6ms | Allocations: 268)
+  Rendered layout layouts/main.html.erb (Duration: 13.1ms | Allocations: 5577)
+Completed 200 OK in 15ms (Views: 14.4ms | Allocations: 6283)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 12:58:16 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 199)
+  Rendered layout layouts/main.html.erb (Duration: 11.2ms | Allocations: 5292)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 5655)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2021-05-30 12:58:17 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.4ms | Allocations: 125)
+  Rendered layout layouts/main.html.erb (Duration: 11.6ms | Allocations: 5200)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 5563)
+
+
+Started GET "/main/rails" for 127.0.0.1 at 2021-05-30 12:58:18 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/rails"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 12:58:21 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 109)
+  Rendered layout layouts/main.html.erb (Duration: 10.6ms | Allocations: 5188)
+Completed 200 OK in 12ms (Views: 11.3ms | Allocations: 5562)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:00:12 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 10.3ms | Allocations: 5090)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 5326)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:00:16 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 10.9ms | Allocations: 5088)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 5323)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:01:18 +0900
+  
+NameError (uninitialized constant ApplicationController
+Did you mean?  ApplicationRecord):
+  
+app/controllers/main_controller.rb:1:in `<top (required)>'
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:01:24 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 10.0ms | Allocations: 5093)
+Completed 200 OK in 11ms (Views: 11.1ms | Allocations: 5469)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:01:35 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 12.4ms | Allocations: 7059)
+Completed 500 Internal Server Error in 15ms (Allocations: 7742)
+
+
+  
+ActionView::Template::Error (The asset "main.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'main'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:00 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 13.2ms | Allocations: 6915)
+Completed 500 Internal Server Error in 15ms (Allocations: 7598)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:01 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 12.3ms | Allocations: 6582)
+Completed 500 Internal Server Error in 13ms (Allocations: 6790)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:01 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 25.7ms | Allocations: 26356)
+Completed 500 Internal Server Error in 27ms (Allocations: 26849)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:02 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 66.0ms | Allocations: 44607)
+Completed 500 Internal Server Error in 67ms (Allocations: 45643)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:10 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 13.0ms | Allocations: 6582)
+Completed 500 Internal Server Error in 14ms (Allocations: 6789)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:11 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 27.1ms | Allocations: 6582)
+Completed 500 Internal Server Error in 28ms (Allocations: 6789)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:12 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:12 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 32.4ms | Allocations: 25933)
+Completed 500 Internal Server Error in 34ms (Allocations: 26556)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:12 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 415.5ms | Allocations: 145437)
+Completed 500 Internal Server Error in 417ms (Allocations: 145890)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+  Rendered layout layouts/main.html.erb (Duration: 434.7ms | Allocations: 163571)
+Completed 500 Internal Server Error in 436ms (Allocations: 164017)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:32 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 13.3ms | Allocations: 6915)
+Completed 500 Internal Server Error in 16ms (Allocations: 7598)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:33 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 13.6ms | Allocations: 6585)
+Completed 500 Internal Server Error in 15ms (Allocations: 6793)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:02:33 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 40.4ms | Allocations: 23666)
+Completed 500 Internal Server Error in 41ms (Allocations: 24272)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application'%>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:03:14 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 11.8ms | Allocations: 5431)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 6142)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:03:18 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 14.1ms | Allocations: 6911)
+Completed 500 Internal Server Error in 16ms (Allocations: 7592)
+
+
+  
+ActionView::Template::Error (The asset "application.js" is not present in the asset pipeline.
+):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:04:23 +0900
+  [1m[35m (4.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 1.1ms | Allocations: 335)
+  Rendered layout layouts/main.html.erb (Duration: 806.3ms | Allocations: 151563)
+Completed 500 Internal Server Error in 813ms (ActiveRecord: 0.0ms | Allocations: 153550)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:04:27 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 107)
+  Rendered layout layouts/main.html.erb (Duration: 43.3ms | Allocations: 14325)
+Completed 500 Internal Server Error in 45ms (ActiveRecord: 0.0ms | Allocations: 14733)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag 'application' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:05:53 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.5ms | Allocations: 102)
+  Rendered layout layouts/main.html.erb (Duration: 29.0ms | Allocations: 14326)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.0ms | Allocations: 15013)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag "application" %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:05:54 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 25.3ms | Allocations: 13991)
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 14199)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag "application" %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:05:54 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:05:54 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 88.7ms | Allocations: 58233)
+Completed 500 Internal Server Error in 90ms (ActiveRecord: 0.0ms | Allocations: 58517)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag "application" %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:05:55 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 460.6ms | Allocations: 163421)
+Completed 500 Internal Server Error in 465ms (ActiveRecord: 0.0ms | Allocations: 165675)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag "application" %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+  Rendered layout layouts/main.html.erb (Duration: 490.6ms | Allocations: 192535)
+Completed 500 Internal Server Error in 492ms (ActiveRecord: 0.0ms | Allocations: 193062)
+
+
+  
+ActionView::Template::Error (application.js):
+     8:     <%= csp_meta_tag %>
+     9: 
+    10:     <%= stylesheet_link_tag 'main', media: 'all' %>
+    11:     <%= javascript_include_tag "application" %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/main.html.erb:11
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:07:23 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 54.2ms | Allocations: 20905)
+Completed 200 OK in 55ms (Views: 54.8ms | ActiveRecord: 0.0ms | Allocations: 21149)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:07:24 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 274)
+  Rendered layout layouts/main.html.erb (Duration: 15.6ms | Allocations: 8594)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 8956)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:07:25 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 16.1ms | Allocations: 8434)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 8808)
+
+
+Started GET "/main/rails" for 127.0.0.1 at 2021-05-30 13:07:25 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/rails"):
+  
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 13:07:28 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 204)
+  Rendered layout layouts/main.html.erb (Duration: 15.6ms | Allocations: 8525)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.0ms | Allocations: 8891)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2021-05-30 13:07:28 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.5ms | Allocations: 126)
+  Rendered layout layouts/main.html.erb (Duration: 17.2ms | Allocations: 8435)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 8798)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:07:29 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 14.9ms | Allocations: 8315)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 8551)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:07:30 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.6ms | Allocations: 8318)
+Completed 200 OK in 16ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 8553)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:07:30 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 15.1ms | Allocations: 8323)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.0ms | Allocations: 8558)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:07:34 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.0ms | Allocations: 8310)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 8545)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:08:14 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 106)
+  Rendered layout layouts/main.html.erb (Duration: 376.6ms | Allocations: 75151)
+Completed 200 OK in 379ms (Views: 377.9ms | ActiveRecord: 0.0ms | Allocations: 75851)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:08:16 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 271)
+  Rendered layout layouts/main.html.erb (Duration: 15.4ms | Allocations: 8375)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8738)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 13:08:20 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.4ms | Allocations: 196)
+  Rendered layout layouts/main.html.erb (Duration: 15.4ms | Allocations: 8299)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 8662)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:10:34 +0900
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 1.1ms | Allocations: 335)
+  Rendered layout layouts/main.html.erb (Duration: 78.0ms | Allocations: 28989)
+Completed 200 OK in 85ms (Views: 82.4ms | ActiveRecord: 0.0ms | Allocations: 31007)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:14:03 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 17.5ms | Allocations: 8539)
+Completed 200 OK in 20ms (Views: 19.0ms | ActiveRecord: 0.0ms | Allocations: 9252)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:14:04 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.5ms | Allocations: 8183)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms | Allocations: 8422)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:14:22 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 110)
+  Rendered layout layouts/main.html.erb (Duration: 16.1ms | Allocations: 8539)
+Completed 200 OK in 18ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 9256)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:15:39 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 16.3ms | Allocations: 8534)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms | Allocations: 9243)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:16:39 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.0ms | Allocations: 8197)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 8433)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:16:40 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 16.6ms | Allocations: 8197)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 8432)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:16:41 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.1ms | Allocations: 8185)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 8422)
+
+
+Started GET "/main/rails" for 127.0.0.1 at 2021-05-30 13:16:41 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/rails"):
+  
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:21:14 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.5ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 17.0ms | Allocations: 8584)
+Completed 200 OK in 20ms (Views: 18.6ms | Allocations: 9374)
+
+
+Started GET "/main/rails" for 127.0.0.1 at 2021-05-30 13:21:16 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/rails"):
+  
+Started GET "/main/ruby-concepts" for 127.0.0.1 at 2021-05-30 13:21:21 +0900
+Processing by MainController#ruby_concepts as HTML
+Completed 406 Not Acceptable in 2ms (Allocations: 566)
+
+
+  
+ActionController::MissingExactTemplate (MainController#ruby_concepts is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:21:38 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 15.9ms | Allocations: 8530)
+Completed 200 OK in 18ms (Views: 17.3ms | Allocations: 9242)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:21:39 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.9ms | Allocations: 8175)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 8411)
+
+
+Started GET "/main/ruby-numbers" for 127.0.0.1 at 2021-05-30 13:21:41 +0900
+Processing by MainController#ruby_numbers as HTML
+Completed 406 Not Acceptable in 2ms (Allocations: 555)
+
+
+  
+ActionController::MissingExactTemplate (MainController#ruby_numbers is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/ruby-numbers" for 127.0.0.1 at 2021-05-30 13:22:09 +0900
+Processing by MainController#ruby_numbers as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 160)
+
+
+  
+ActionController::MissingExactTemplate (MainController#ruby_numbers is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/rails" for 127.0.0.1 at 2021-05-30 13:22:24 +0900
+  
+ActionController::RoutingError (No route matches [GET] "/main/rails"):
+  
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 13:22:26 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.5ms | Allocations: 200)
+  Rendered layout layouts/main.html.erb (Duration: 30.2ms | Allocations: 8378)
+Completed 200 OK in 32ms (Views: 31.3ms | Allocations: 8876)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:22:28 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.6ms | Allocations: 8191)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 8427)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:22:29 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 274)
+  Rendered layout layouts/main.html.erb (Duration: 15.8ms | Allocations: 8447)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 8809)
+
+
+Started GET "/main/ruby-hashes" for 127.0.0.1 at 2021-05-30 13:22:30 +0900
+Processing by MainController#ruby_hashes as HTML
+Completed 406 Not Acceptable in 2ms (Allocations: 550)
+
+
+  
+ActionController::MissingExactTemplate (MainController#ruby_hashes is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:25:06 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 8699)
+Completed 200 OK in 19ms (Views: 18.2ms | Allocations: 9400)
+
+
+Started GET "/main/rails-folder-structure" for 127.0.0.1 at 2021-05-30 13:25:08 +0900
+Processing by MainController#rails_folder_structure as HTML
+Completed 406 Not Acceptable in 16ms (Allocations: 555)
+
+
+  
+ActionController::MissingExactTemplate (MainController#rails_folder_structure is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:106:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/main/rails-commands" for 127.0.0.1 at 2021-05-30 13:25:14 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.5ms | Allocations: 199)
+  Rendered layout layouts/main.html.erb (Duration: 32.0ms | Allocations: 8382)
+Completed 200 OK in 33ms (Views: 32.6ms | Allocations: 8746)
+
+
+Started GET "/main/rails-commands" for 127.0.0.1 at 2021-05-30 13:25:43 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.5ms | Allocations: 199)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 8637)
+Completed 200 OK in 19ms (Views: 18.3ms | Allocations: 9337)
+
+
+Started GET "/main/ruby" for 127.0.0.1 at 2021-05-30 13:25:45 +0900
+Processing by MainController#ruby as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby.html.erb within layouts/main
+  Rendered main/ruby.html.erb within layouts/main (Duration: 0.4ms | Allocations: 105)
+  Rendered layout layouts/main.html.erb (Duration: 27.7ms | Allocations: 8280)
+Completed 200 OK in 29ms (Views: 28.3ms | Allocations: 8654)
+
+
+Started GET "/main/rails-folder-structure" for 127.0.0.1 at 2021-05-30 13:25:46 +0900
+Processing by MainController#rails_folder_structure as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_folder_structure.html.erb within layouts/main
+  Rendered main/rails_folder_structure.html.erb within layouts/main (Duration: 0.6ms | Allocations: 253)
+  Rendered layout layouts/main.html.erb (Duration: 16.5ms | Allocations: 8434)
+Completed 200 OK in 18ms (Views: 17.2ms | Allocations: 8795)
+
+
+Started GET "/main/rails-commands" for 127.0.0.1 at 2021-05-30 13:25:47 +0900
+Processing by MainController#rails_commands as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_commands.html.erb within layouts/main
+  Rendered main/rails_commands.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.2ms | Allocations: 8183)
+Completed 200 OK in 16ms (Views: 15.7ms | Allocations: 8419)
+
+
+Started GET "/main/rails-erb" for 127.0.0.1 at 2021-05-30 13:25:47 +0900
+Processing by MainController#rails_erb as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_erb.html.erb within layouts/main
+  Rendered main/rails_erb.html.erb within layouts/main (Duration: 0.4ms | Allocations: 144)
+  Rendered layout layouts/main.html.erb (Duration: 15.7ms | Allocations: 8315)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 8677)
+
+
+Started GET "/main/ruby-arrays" for 127.0.0.1 at 2021-05-30 13:25:48 +0900
+Processing by MainController#ruby_arrays as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_arrays.html.erb within layouts/main
+  Rendered main/ruby_arrays.html.erb within layouts/main (Duration: 0.5ms | Allocations: 247)
+  Rendered layout layouts/main.html.erb (Duration: 17.8ms | Allocations: 8419)
+Completed 200 OK in 19ms (Views: 18.4ms | Allocations: 8783)
+
+
+Started GET "/main/ruby-hashes" for 127.0.0.1 at 2021-05-30 13:25:49 +0900
+Processing by MainController#ruby_hashes as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_hashes.html.erb within layouts/main
+  Rendered main/ruby_hashes.html.erb within layouts/main (Duration: 0.5ms | Allocations: 200)
+  Rendered layout layouts/main.html.erb (Duration: 15.5ms | Allocations: 8376)
+Completed 200 OK in 17ms (Views: 16.1ms | Allocations: 8739)
+
+
+Started GET "/main/ruby-numbers" for 127.0.0.1 at 2021-05-30 13:25:50 +0900
+Processing by MainController#ruby_numbers as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_numbers.html.erb within layouts/main
+  Rendered main/ruby_numbers.html.erb within layouts/main (Duration: 0.5ms | Allocations: 216)
+  Rendered layout layouts/main.html.erb (Duration: 15.4ms | Allocations: 8384)
+Completed 200 OK in 17ms (Views: 16.1ms | Allocations: 8747)
+
+
+Started GET "/main/ruby-strings" for 127.0.0.1 at 2021-05-30 13:25:51 +0900
+Processing by MainController#ruby_strings as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/ruby_strings.html.erb within layouts/main
+  Rendered main/ruby_strings.html.erb within layouts/main (Duration: 0.7ms | Allocations: 266)
+  Rendered layout layouts/main.html.erb (Duration: 17.4ms | Allocations: 8454)
+Completed 200 OK in 20ms (Views: 18.1ms | Allocations: 8817)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 13:25:51 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.7ms | Allocations: 201)
+  Rendered layout layouts/main.html.erb (Duration: 20.6ms | Allocations: 8375)
+Completed 200 OK in 22ms (Views: 21.4ms | Allocations: 8739)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2021-05-30 13:25:52 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.4ms | Allocations: 126)
+  Rendered layout layouts/main.html.erb (Duration: 15.4ms | Allocations: 8308)
+Completed 200 OK in 17ms (Views: 16.0ms | Allocations: 8671)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:25:52 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/main.html.erb (Duration: 15.7ms | Allocations: 8449)
+Completed 200 OK in 17ms (Views: 16.3ms | Allocations: 8812)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:25:53 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.4ms | Allocations: 111)
+  Rendered layout layouts/main.html.erb (Duration: 16.1ms | Allocations: 8286)
+Completed 200 OK in 30ms (Views: 16.8ms | Allocations: 8650)
+
+
+Started GET "/main/editor" for 127.0.0.1 at 2021-05-30 13:26:17 +0900
+Processing by MainController#editor as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/editor.html.erb within layouts/main
+  Rendered main/editor.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 14.9ms | Allocations: 8193)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 8429)
+
+
+Started GET "/main/help" for 127.0.0.1 at 2021-05-30 13:26:18 +0900
+Processing by MainController#help as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/help.html.erb within layouts/main
+  Rendered main/help.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.9ms | Allocations: 8177)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 8412)
+
+
+Started GET "/main/rails-erb" for 127.0.0.1 at 2021-05-30 13:26:20 +0900
+Processing by MainController#rails_erb as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/rails_erb.html.erb within layouts/main
+  Rendered main/rails_erb.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.7ms | Allocations: 8195)
+Completed 200 OK in 17ms (Views: 16.2ms | Allocations: 8430)
+
+
+Started GET "/main/console" for 127.0.0.1 at 2021-05-30 13:31:09 +0900
+Processing by MainController#console as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/console.html.erb within layouts/main
+  Rendered main/console.html.erb within layouts/main (Duration: 0.0ms | Allocations: 4)
+  Rendered layout layouts/main.html.erb (Duration: 16.8ms | Allocations: 8183)
+Completed 200 OK in 18ms (Views: 17.8ms | Allocations: 8560)
+
+
+Started GET "/" for 127.0.0.1 at 2021-05-30 13:31:09 +0900
+Processing by MainController#convention as HTML
+  Rendering layout layouts/main.html.erb
+  Rendering main/convention.html.erb within layouts/main
+  Rendered main/convention.html.erb within layouts/main (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/main.html.erb (Duration: 15.2ms | Allocations: 8191)
+Completed 200 OK in 16ms (Views: 15.8ms | Allocations: 8426)
+
+

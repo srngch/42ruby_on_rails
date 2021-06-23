@@ -1,0 +1,16 @@
+Rails.application.routes.draw do
+  root "main#convention"
+  get 'main/console', to: "main#console"
+  get 'main/ruby', to: "main#ruby"
+  get 'main/ruby-concepts', to: "main#ruby_concepts"
+  get 'main/ruby-numbers', to: "main#ruby_numbers"
+  get 'main/ruby-strings', to: "main#ruby_strings"
+  get 'main/ruby-arrays', to: "main#ruby_arrays"
+  get 'main/ruby-hashes', to: "main#ruby_hashes"
+  get 'main/rails-folder-structure', to: "main#rails_folder_structure"
+  get 'main/rails-commands', to: "main#rails_commands"
+  get 'main/rails-erb', to: "main#rails_erb"
+  get 'main/editor', to: "main#editor"
+  get 'main/help', to: "main#help"  
+  get 'main/quick-search', to: "main#quick_search"  
+end
